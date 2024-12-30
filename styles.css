@@ -52,10 +52,6 @@ ul {
     gap: 30px;
 }
 
-/* .max-width{
-    max-width: 66vw;
-} */
-
 .sign-up-button{
     background-color: #3882f6;
     color: white;
@@ -68,7 +64,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items:center;
-    
+    margin-top: 32px;
+    margin-bottom: 64px;
 }
 
 .card-container {
@@ -79,7 +76,7 @@ ul {
 .card-image{
     width: 150px;    
     height: 150px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #3882f6;
 }
 
@@ -87,9 +84,65 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .card-text{
     text-align: center;
-    max-width: 100px;
+    max-width: 150px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.quote-text{
+
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.author-text{
+    text-align: end;
+}
+
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.call-to-action-color-box{
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px 50px;
+    color:#F9FAF8;
+    border-radius: 10px;
+    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-border{
+    border-color:#F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px; 
+    border-width: 2px;
+    padding: 4px 20px;
+}
+
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }

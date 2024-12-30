@@ -21,7 +21,6 @@ ul {
     display:flex;
     align-items: center;
     padding: 16px;
-    
 }
 
 .logo{
@@ -42,6 +41,8 @@ ul {
 
 .dark-blue-background{
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-section{
@@ -92,10 +93,14 @@ ul {
     max-width: 150px;
 }
 
+.gray-background{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
 .quote-section{
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
     padding-top: 32px;
     padding-bottom: 64px;
 }
@@ -145,4 +150,8 @@ ul {
     color: white;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.max-width{
+    width: 60vw;
 }
